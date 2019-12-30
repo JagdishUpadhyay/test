@@ -1,0 +1,420 @@
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 25px;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  .bm-menu {
+    background: #373a47;
+    padding: 0 1em 0;
+    font-size: 1.15em;
+    overflow: hidden !important;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+table.dataTable thead .sorting::after,
+table.dataTable thead .sorting_asc::after {
+    display:none;
+}
+
+table.dataTable thead .sorting_desc::after {
+    display:none;
+}
+
+table.dataTable thead .sorting {
+   background-image: url(https://datatables.net/media/images/sort_both.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+}
+
+table.dataTable thead .sorting_asc {
+   background-image: url(https://datatables.net/media/images/sort_asc.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+}
+
+table.dataTable thead .sorting_desc {
+   background-image: url(https://datatables.net/media/images/sort_desc.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+}
+
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting:before, table.dataTable thead .sorting_desc:before {
+    content: none ;
+}
+
+#dropdown-basic {
+    background-color: inherit;
+    border-color: rgb(255, 204, 0);
+}
+
+#dataTable th {
+    text-transform: capitalize;
+    background-color: #c00;
+    color: #fff;
+}
+
+#dataTable th, #dataTable td {
+    border: 1px solid #ccc;
+}
+
+
+.bm-item {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.bm-item-list a:focus {
+    outline: none;
+}
+
+.navbar {
+    padding: 0 1rem;
+} 
+
+.navbar-brand {
+    margin-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-text {
+    margin-left: 10px;
+}
+
+.footer {
+    font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+ /* Footer Section Starts */
+/* .faceliftStandardFooter,
+.faceliftStandardFooter .footer .container .logo,
+.faceliftStandardFooter .footer .container .footer_navigation,
+.faceliftStandardFooter .footer .container p{
+	clear: both;
+}
+
+.faceliftStandardFooter .footer{
+	background: url("'https://www.dhl.com/img/facelift/common/shadow_footer_right.gif") no-repeat scroll top right transparent;
+	width: 99em;
+	padding-top:5.6em;
+	min-width: 0;
+	max-width: none;
+}
+
+.faceliftStandardFooter .footer .container{
+	background: url("'https://www.dhl.com/img/facelift/common/shadow_footer_bottom_right.gif") no-repeat scroll bottom right transparent;
+	padding: 0 0 .5em;
+	width: 99em;
+	min-width: 0;
+	max-width: none;
+}
+
+.faceliftStandardFooter .footer .container .logo{
+	position: relative;
+	overflow: hidden;
+	background-color: #FFCC00;
+	width: 96.6em;
+	height: 3em;
+	padding-right: 1.4em;
+	text-align: right;
+}
+
+.faceliftStandardFooter .footer .container .logo a{
+	display: inline-block;
+	margin-top: -2px;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content{
+	background: url("'https://www.dhl.com/img/facelift/common/footer_links_bg.gif") no-repeat top left transparent;
+	width: 95.5em;
+	padding-top: 1.7em;
+	padding-left: 0.5em;
+	padding-right: 2em;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content a{
+	color: #666666;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content a:hover{
+	color: #c00;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box{
+	float:left;
+	width: 147px;
+	padding-left: 1.3em;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box{
+	float:right;
+	min-width:21.7em;
+	max-width: 30.4em;
+	text-align:right;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box,
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box{
+	position: relative;
+	overflow: hidden;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box h6,
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box h6{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: normal;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box h6{
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box h6 a,
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box h6 a{
+	display: inline-block;
+	margin-left: 4px;
+	margin-bottom: 2px;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box h6 a.arrowLink,
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box h6 a.arrowLink{
+	margin-left: 3px;
+	padding-left: 0.8em;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content h6 a.contact_center{
+	background: url('https://www.dhl.com/img/facelift/common/footer_contact_center_icon.png') 1px -1px no-repeat;
+	padding-left: 2em;
+	padding-bottom: 2px;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content h6 a.alert{
+	background: url('https://www.dhl.com/img/facelift/common/alert_icon_Footer_15px_raute.png') 1px 0px no-repeat;
+	padding-left: 2em;
+	padding-bottom: 2px;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box h6{
+	padding-right: 2px;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul{
+	list-style-type: none;
+	border-top: 1px solid #d8d8d8;
+	padding-top: 3px;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box ul{
+	list-style-type: none;
+	padding-top: 3px;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box ul{
+	padding-top: 8px;
+	float: right;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box ul li{
+	float: right;
+	display: inline-block;
+	padding-left: 10px;
+	line-height: 42px;
+	vertical-align: middle;
+	height: 42px;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul li a{
+	margin:0 0 2px 3px;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul li a.arrowLink{
+	background-position: 0 .3em;
+}
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul li a.arrowLinkUp{
+	display: inline-block;
+	margin-bottom: 2px;
+	background-position: -2px 0.2em;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul li a.anchorLink{
+	display: inline-block;
+	padding-left: 0.95em;
+	margin-bottom: 2px;
+}
+
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .link_box ul li a,
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box ul li a.arrowLink{
+	font-size: 1.1em;
+	padding-left:.9em;
+	word-wrap: break-word;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content .partner_box ul li a{
+	display: inline-block;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.facebook,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.youtube,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.instagram, 
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.blog,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.googleplus,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.linkedin,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.pinterest,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.twitter,
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.koreanblog 
+ {
+    display: inline-block;
+	margin-left: 0px;
+	padding-left: 1.5em;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.facebook{
+	background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 2px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.youtube{
+	background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -98px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.blog{
+	background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -200px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.googleplus{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -298px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.linkedin{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -399px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.pinterest{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -499px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.twitter{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -599px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.instagram{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -699px no-repeat;
+}
+
+.faceliftStandardFooter .footer .container .advanced_footer_content ul li a.koreanblog{
+    background: url('https://www.dhl.com/img/facelift/common/social_sprites.gif') 0 -787px no-repeat;
+}
+
+
+.faceliftStandardFooter .footer .container .footer_navigation{
+	padding: 1.2em 3em .6em 0;
+}
+.faceliftStandardFooter .footer .container .footer_navigation a{
+	color:#666;
+}
+.faceliftStandardFooter .footer .container .footer_navigation a:hover{
+	color: #c00;
+}
+.faceliftStandardFooter .footer .container .footer_navigation li{
+	background-image: url('https://www.dhl.com/img/facelift/common/servicelink_separator_footer.gif');
+	padding-right:.1em;
+}
+.faceliftStandardFooter .footer .container .footer_navigation li.firstItem{
+	background: none;
+} */
+
+ /* Footer Section ends */
+
+ .logo {
+    position: relative;
+    overflow: hidden;
+    background-color: #FFCC00;
+    padding-right: 1.4em;
+    text-align: right;
+}
+
+.navigation-btn {
+    background-color: #c00;
+    border-color: #c00;
+    margin: 10px;
+}
+.navigation-btn a {
+    color: #fff;
+}
+
+.circle{
+	border:1px solid #000;
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	position:relative;
+	margin:4px;
+	display:inline-block;
+	vertical-align:middle;
+  }
+
+  .circle.plus:before,
+  .circle.plus:after {
+	  content: '';
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background: #333;
+  }
+  .circle.plus:before{
+	  width: 2px;
+	  margin: 2px auto;
+  }
+  .circle.plus:after{
+	  margin: auto 2px;
+	  height: 2px;
+  }
